@@ -1,0 +1,26 @@
+
+  <form [formGroup]="CarteVisite"  class="carte-visite-form">
+
+    <div class="form-group">
+      <label for="nom">Nom:</label>
+      <input type="text" formControlName="nom" id="nom" class="form-control" placeholder="Nom">
+    </div>
+    <div class="form-group">
+      <label for="prenom">Prénom:</label>
+      <input type="text" formControlName="prenom" id="prenom" class="form-control" placeholder="Prénom">
+    </div>
+    <div class="form-group">
+      <label for="entreprise">Entreprise:</label>
+      <input type="text" formControlName="entreprise" id="entreprise" class="form-control" placeholder="Entreprise">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" formControlName="email" id="email" class="form-control" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label for="telephone">Téléphone:</label>
+      <input type="text" formControlName="telephone" id="telephone" class="form-control" placeholder="Téléphone">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="Onclick()">Envoyer</button>
+  </form>
+    
